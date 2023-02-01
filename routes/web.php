@@ -13,27 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-    //return view('welcome');
-//});
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('modalidad/inicio', 
-function ()
-{ 
-    return "Vista Inicio"; 
-}
-);
-
-Route::get('modalidad/registro', 
-function ()
-{ 
-    return "Vista registro"; 
-}
-);
-
-Route::get('modalidad/reporte_egresado', 
-function ()
-{ 
-    return "Vista Reporte Egresado"; 
-}
-);
